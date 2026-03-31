@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>La Casa de la Chicha (Actualizado) — Tradicion Liquida Venezolana</title>
+  <meta name="description" content="La Casa de la Chicha en Caracas: chicha tradicional, andina en pina, papelon con limon, reservas y pedidos por WhatsApp.">
+  <meta name="keywords" content="chicha venezolana, chicha andina, papelon con limon, avenida oeste 13 caracas 1010, bebida tradicional">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#4169E1">
+  <link rel="canonical" href="https://lacasadelachicha2025-hub.github.io/la-casa-de-la-chicha/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_VE">
+  <meta property="og:title" content="La Casa de la Chicha - Tradicion Liquida Venezolana">
+  <meta property="og:description" content="Sabores autenticos de Venezuela en Caracas: chicha tradicional, andina y mas.">
+  <meta property="og:url" content="https://lacasadelachicha2025-hub.github.io/la-casa-de-la-chicha/">
+  <meta property="og:image" content="https://lacasadelachicha2025-hub.github.io/la-casa-de-la-chicha/assets/images/chicha_tradicional.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="La Casa de la Chicha">
+  <meta name="twitter:description" content="Tradicion liquida venezolana en Caracas.">
+  <meta name="twitter:image" content="https://lacasadelachicha2025-hub.github.io/la-casa-de-la-chicha/assets/images/chicha_tradicional.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="shortcut icon" href="favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "La Casa de la Chicha",
+      "servesCuisine": "Venezolana",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "G38G+QGJ La Casa de la Chicha, Avenida Oeste 13",
+        "addressLocality": "Caracas 1010",
+        "addressCountry": "VE"
+      },
+      "telephone": "+58-424-1379696",
+      "url": "https://lacasadelachicha2025-hub.github.io/la-casa-de-la-chicha/"
+    }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#mainContent">Saltar al contenido principal</a>
+
+  <!-- ═══════ GLOBAL UI ELEMENTS ═══════ -->
+  <div id="prog"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ═══════ LOADER ═══════ -->
+  <div id="loader">
+    <div class="ll"><span class="ll-i">LA <span class="ac">CHICHA</span></span></div>
+    <div class="ls">La Casa de la Chicha. C.A. · Caracas, Venezuela · Est. 2020</div>
+    <div class="lb-w">
+      <div class="lb"></div>
+    </div>
+  </div>
+
+  <!-- ═══════ NAVIGATION ═══════ -->
+  <nav id="nav" aria-label="Navegacion principal">
+    <a href="#hero" class="nlogo"><span class="ndot"></span> CASA DE LA <span>CHICHA</span></a>
+    <ul class="nlinks">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#gallery">Galería</a></li>
+      <li><a href="#reservation">Reservas</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <span class="ham-line"></span>
+      <span class="ham-line"></span>
+      <span class="ham-line"></span>
+    </button>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" title="Cambiar tema">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="cart-toggle" id="cartToggle" title="Ver pedido">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+      <a href="#reservation" class="ncta"><span>Reservar Mesa</span></a>
+    </div>
+  </nav>
+
+  <main id="mainContent" tabindex="-1">
+
+  <!-- ═══════ HERO ═══════ -->
+  <section id="hero">
+    <!-- <canvas id="hc"></canvas> Eliminado por solicitud del usuario -->
+    <div class="aurora-bg">
+      <div class="aurora-blob a-blob-1"></div>
+      <div class="aurora-blob a-blob-2"></div>
+      <div class="aurora-blob a-blob-3"></div>
+    </div>
+    <div class="hi">
+      <div class="hey"><span class="hl"></span>Tradición Venezolana · Caracas<span class="hl"></span></div>
+      <h1 class="h1w">
+        <span class="h1l"><span class="h1i">LA CASA</span></span>
+        <span class="h1l"><span class="h1i">de la</span></span>
+        <span class="h1l"><span class="h1i">CHICHA</span></span>
+      </h1>
+      <p class="hcp">La bebida tradicional venezolana reinventada para el paladar contemporáneo. Chicha de pasta,
+        papelón con limón y mucho más. Sabor que trasciende el tiempo.</p>
+      <div class="has">
+        <a href="#menu" class="bf">Explorar Menú →</a>
+        <a href="#about" class="bo">Nuestra Historia <span>↓</span></a>
+      </div>
+    </div>
+    <div class="hscrl">
+      <div class="sm">
+        <div class="sd"></div>
+      </div>
+    </div>
+    <div class="hst">Fermentación Artesanal · Sabor Venezolano · Caracas 2025</div>
+    <!-- Contador social proof -->
+    <div class="hero-counter">
+      <span class="hc-icon">🥤</span>
+      <span class="hc-num" id="chichaCounter">12,450</span>
+      <span class="hc-label">chichas servidas y contando...</span>
+    </div>
+  </section>
+
+  <!-- ═══════ MARQUEE ═══════ -->
+  <div class="mq" aria-hidden="true">
+    <div class="mqi">
+      <span class="mi2"><b>Chicha Tradicional</b><span class="mg">✦</span>Clásica</span>
+      <span class="mi2"><b>Chicha Andina</b><span class="mg">✦</span>Fermentada en Piña</span>
+      <span class="mi2"><b>Papelón con Limón</b><span class="mg">✦</span>Refrescante</span>
+      <span class="mi2"><b>100% Venezolana</b><span class="mg">✦</span>Hecha con Amor</span>
+      <span class="mi2"><b>Chicha Ligada</b><span class="mg">✦</span>Fusión Especial</span>
+      <span class="mi2"><b>Chicha Tradicional</b><span class="mg">✦</span>Clásica</span>
+      <span class="mi2"><b>Chicha Andina</b><span class="mg">✦</span>Fermentada en Piña</span>
+      <span class="mi2"><b>Papelón con Limón</b><span class="mg">✦</span>Refrescante</span>
+      <span class="mi2"><b>100% Venezolana</b><span class="mg">✦</span>Hecha con Amor</span>
+    </div>
+  </div>
+
+  <!-- ═══════ VIDEO CINEMATIC ═══════ -->
+  <section id="video-section">
+    <div class="vid-overlay"></div>
+    <video class="vid-bg" autoplay muted loop playsinline>
+      <source src="assets/promo-video.mp4" type="video/mp4">
+    </video>
+    <div class="vid-content" data-rv>
+      <h2 class="sh2" style="text-align:center">Nuestra Dulce<br><em>Tradición</em></h2>
+      <p class="vid-caption">Cremosa, dulce e inolvidable. Como debe ser.</p>
+    </div>
+    <div class="vid-border-top"></div>
+    <div class="vid-border-bottom"></div>
+  </section>
+
+  <!-- ═══════ ABOUT ═══════ -->
+  <section id="about">
+    <div class="ag">
+      <div class="asw" data-rv="l"
+        style="position: relative; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+        <img src="assets/images/chicha_historia.png" alt="Chicha tradicional de familia"
+          style="width: 100%; height: 100%; border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,0.4); border: 1px solid rgba(212, 148, 58, 0.2); object-fit: contain;" />
+      </div>
+      <div class="atx" data-rv="r">
+        <div class="sey">01 · Nuestra Historia</div>
+        <h2 class="sh2 text-anim">
+          <span class="anim-word" style="--d: 0.1s">La bebida</span><br>
+          <span class="anim-word" style="--d: 0.3s">que nació</span><br>
+          <em class="anim-word" style="--d: 0.5s">de casa</em>
+        </h2>
+        <p class="bp">La chicha no es solo una bebida — es parte del alma venezolana. Durante generaciones, nuestras
+          familias han preparado chicha de pasta y la legendaria chicha andina fermentada en piña, creando
+          sabores que conectan con nuestras raíces.</p>
+        <p class="bp">En La Casa de la Chicha. C.A., somos guardianes de esa tradición. Cada vaso es el resultado de
+          recetas familiares, ingredientes frescos venezolanos y respeto absoluto por los saberes de nuestras abuelas.
+        </p>
+        <div class="sgrid">
+          <div class="st">
+            <div class="sn">12+</div>
+            <div class="sl">Variedades</div>
+          </div>
+          <div class="st">
+            <div class="sn">100%</div>
+            <div class="sl">Artesanal</div>
+          </div>
+          <div class="st">
+            <div class="sn">4.9★</div>
+            <div class="sl">Google</div>
+          </div>
+        </div>
+
+        <div class="mv-block"
+          style="margin-top: 2rem; padding: 1.8rem 2rem; background: rgba(255, 255, 255, 0.04); border-left: 3px solid var(--gold); border-radius: 2px;">
+          <h3 style="font-family: var(--fD); font-size: 1.4rem; color: var(--gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.8rem;">Misión</h3>
+          <p class="bp" style="font-size: 0.95rem; line-height: 1.8;">
+            Ofrecer a nuestros clientes bebidas tradicionales venezolanas, especialmente la chicha, elaboradas con
+            ingredientes frescos y de alta calidad, preservando recetas auténticas y brindando un servicio cálido y
+            personalizado que rescate y difunda el patrimonio gastronómico nacional venezolano.
+          </p>
+        </div>
+
+        <div class="mv-block"
+          style="margin-top: 1.2rem; padding: 1.8rem 2rem; background: rgba(255, 255, 255, 0.04); border-left: 3px solid var(--gold2); border-radius: 2px;">
+          <h3 style="font-family: var(--fD); font-size: 1.4rem; color: var(--gold2); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.8rem;">Visión</h3>
+          <p class="bp" style="font-size: 0.95rem; line-height: 1.8;">
+            Ser la empresa referente en la elaboración y comercialización de bebidas tradicionales venezolanas en
+            Caracas, reconocida por la autenticidad, calidad y sabor de sus productos, expandiendo su presencia a nivel
+            nacional e impulsando la innovación en sus procesos para satisfacer las exigencias de sus clientes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SHOWCASE — 3D INTERACTIVE PRODUCT ═══════ -->
+  <section id="showcase">
+    <div class="shw-top">
+      <div>
+        <div class="sey">02 · Producto Estrella</div>
+        <h2 class="sh2">Nuestra <em>Colección</em></h2>
+      </div>
+      <div class="shw-hint">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 8v4l3 3" />
+        </svg>
+        Arrastra para rotar
+      </div>
+    </div>
+    <div class="shw-stage">
+      <!-- Variant Pills -->
+      <div class="shw-variants" id="shwVariants">
+        <div class="shw-var active" data-idx="0">
+          <div class="sv-dot"></div>
+          <div class="sv-name">Chicha de Pasta</div>
+          <div class="sv-origin">Tradicional · Clásica</div>
+        </div>
+        <div class="shw-var" data-idx="1">
+          <div class="sv-dot"></div>
+          <div class="sv-name">Chicha Andina</div>
+          <div class="sv-origin">Fermentada · En Piña</div>
+        </div>
+        <div class="shw-var" data-idx="2">
+          <div class="sv-dot"></div>
+          <div class="sv-name">Papelón con Limón</div>
+          <div class="sv-origin">Refrescante · Natural</div>
+        </div>
+        <div class="shw-var" data-idx="3">
+          <div class="sv-dot"></div>
+          <div class="sv-name">Chicha Ligada</div>
+          <div class="sv-origin">Tradicional · Andina</div>
+        </div>
+      </div>
+      <!-- 3D Canvas -->
+      <div class="shw-canvas-wrap">
+        <div class="shw-drag-ring"></div>
+        <div class="shw-drag-ring"></div>
+        <div class="shw-drag-ring"></div>
+        <canvas id="showcase-canvas"></canvas>
+      </div>
+      <!-- Info Panel -->
+      <div class="shw-info" id="shwInfo">
+        <div>
+          <div class="si-label">Variedad Seleccionada</div>
+          <div class="si-title" id="siTitle">PASTA</div>
+          <div class="si-subtitle" id="siSub">Clásica de la Abuela</div>
+        </div>
+        <p class="si-desc" id="siDesc">Pasta corta cocida con leche, vainilla y canela. La versión clásica que nos
+          recuerda a la abuela. Cremosa y reconfortante.</p>
+        <div class="si-attrs">
+          <div class="si-attr">
+            <div class="si-attr-lbl">Preparación</div>
+            <div class="si-attr-val" id="siTime">2 horas</div>
+          </div>
+          <div class="si-attr">
+            <div class="si-attr-lbl">Origen</div>
+            <div class="si-attr-val" id="siOrigin">Venezuela</div>
+          </div>
+          <div class="si-attr">
+            <div class="si-attr-lbl">Alcohol</div>
+            <div class="si-attr-val" id="siAlc">0%</div>
+          </div>
+          <div class="si-attr">
+            <div class="si-attr-lbl">Temperatura</div>
+            <div class="si-attr-val" id="siTemp">4–6°C</div>
+          </div>
+        </div>
+        <div>
+          <div class="si-label" style="margin-bottom:.7rem">Ingredientes</div>
+          <div class="si-ingredients" id="siIngs">
+            <span class="si-ing">Pasta</span>
+            <span class="si-ing">Leche</span>
+            <span class="si-ing">Vainilla</span>
+            <span class="si-ing">Canela</span>
+          </div>
+        </div>
+        <div class="si-price-row">
+          <div class="si-price" id="siPrice">$ 3</div>
+          <button class="si-order"
+            onclick="document.querySelector('#reservation').scrollIntoView({behavior:'smooth'})">Ordenar Ahora
+            →</button>
+        </div>
+      </div>
+    </div>
+    <div class="shw-bottom">
+      <div class="shw-dots" id="shwDots">
+        <div class="shw-dot active"></div>
+        <div class="shw-dot"></div>
+        <div class="shw-dot"></div>
+        <div class="shw-dot"></div>
+        <div class="shw-dot"></div>
+      </div>
+      <div class="shw-rotate-hint">Rotación 360° · Zoom con scroll · Toca para girar</div>
+    </div>
+  </section>
+
+  <!-- ═══════ PROCESS ═══════ -->
+  <section id="process">
+    <div class="pw">
+      <div class="phd" data-rv>
+        <div class="sey" style="justify-content:center">03 · El Proceso</div>
+        <h2 class="sh2">De la pasta al <em>vaso</em></h2>
+      </div>
+      <div class="tl">
+        <div class="tli" data-rv style="transition-delay:.1s">
+          <div class="tln">01</div>
+          <div class="micro-video">
+            <img src="assets/images/step1.png" alt="Ingredientes">
+            <div class="mv-play">▶</div>
+          </div>
+          <div class="tlt">Selección de Ingredientes</div>
+          <p class="tld">Pasta corta venezolana de primera, leche fresca, canela y azúcar. Todo de origen local y natural.</p>
+        </div>
+        <div class="tli" data-rv style="transition-delay:.2s">
+          <div class="tln">02</div>
+          <div class="micro-video">
+            <img src="assets/images/step2.png" alt="Cocción">
+            <div class="mv-play">▶</div>
+          </div>
+          <div class="tlt">Cocción Tradicional</div>
+          <p class="tld">La pasta se cocina lentamente con leche y especias hasta lograr la textura cremosa perfecta.
+          </p>
+        </div>
+        <div class="tli" data-rv style="transition-delay:.3s">
+          <div class="tln">03</div>
+          <div class="micro-video">
+            <img src="assets/images/step3.png" alt="Licuado">
+            <div class="mv-play">▶</div>
+          </div>
+          <div class="tlt">Licuado y Reposo</div>
+          <p class="tld">Se licua hasta obtener la consistencia ideal. Reposo en frío para concentrar sabores.</p>
+        </div>
+        <div class="tli" data-rv style="transition-delay:.4s">
+          <div class="tln">04</div>
+          <div class="micro-video">
+            <img src="assets/images/chicha_historia.png" alt="Servicio">
+            <div class="mv-play">▶</div>
+          </div>
+          <div class="tlt">Servicio Artesanal</div>
+          <p class="tld">Servida bien fría con canela espolvoreada y leche condensada al gusto. Pura tradición.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ COMBOS / PROMOCIONES ═══════ -->
+  <section id="combos">
+    <div class="combos-wrap" data-rv>
+      <div class="sey" style="justify-content:center">Ofertas Especiales</div>
+      <h2 class="sh2" style="text-align:center">Nuestros <em>Combos</em></h2>
+      <div class="combos-grid">
+        <div class="combo-card">
+          <div class="combo-ribbon">-20%</div>
+          <h3 class="combo-title">Combo Familiar</h3>
+          <p class="combo-desc">4 Chichas Tradicionales + 1 Papelón con Limón</p>
+          <div class="combo-prices"><span class="combo-old">$ 14</span><span class="combo-new">$ 11</span></div>
+          <button class="bf combo-btn" data-name="Combo Familiar" data-price="11">Agregar →</button>
+        </div>
+        <div class="combo-card combo-featured">
+          <div class="combo-ribbon">MÁS VENDIDO</div>
+          <h3 class="combo-title">Combo Degustación</h3>
+          <p class="combo-desc">1 Tradicional + 1 Andina + 1 Ligada + 1 Papelón</p>
+          <div class="combo-prices"><span class="combo-old">$ 14</span><span class="combo-new">$ 10</span></div>
+          <button class="bf combo-btn" data-name="Combo Degustación" data-price="10">Agregar →</button>
+        </div>
+        <div class="combo-card">
+          <div class="combo-ribbon">NUEVO</div>
+          <h3 class="combo-title">Combo Pareja</h3>
+          <p class="combo-desc">2 Chichas Andinas + 2 Postres del día</p>
+          <div class="combo-prices"><span class="combo-old">$ 12</span><span class="combo-new">$ 9</span></div>
+          <button class="bf combo-btn" data-name="Combo Pareja" data-price="9">Agregar →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ MENU ═══════ -->
+  <section id="menu">
+    <div class="mhd" data-rv>
+      <div class="sey" style="justify-content:center">03 · La Carta</div>
+      <h2 class="sh2">Selección <em>Venezolana</em></h2>
+      <!-- Filtros de menú -->
+      <div class="menu-filters">
+        <button class="mf-btn active" data-filter="all">Todas</button>
+        <button class="mf-btn" data-filter="sin-alcohol">Sin Alcohol</button>
+        <button class="mf-btn" data-filter="fermentada">Fermentadas</button>
+        <button class="mf-btn" data-filter="refrescante">Refrescantes</button>
+      </div>
+    </div>
+    <div class="mstrip" id="ms">
+      <div class="dc" data-category="sin-alcohol">
+        <div class="cv">
+          <img id="mc1" src="assets/images/chicha_tradicional.png" alt="Chicha Tradicional" class="cimg">
+          <div class="cgl"></div>
+        </div>
+        <div class="cb">
+          <div class="ctg">Tradicional · Clásica</div>
+          <div class="cn">Chicha Tradicional</div>
+          <p class="cd">Pasta corta cocida con leche, vainilla y canela. La versión clásica que nos recuerda a la
+            abuela.</p>
+          <div class="cf"><span class="cp">$ 3</span><button class="ca cart-add" data-name="Chicha Tradicional" data-price="3">+ Ordenar</button></div>
+        </div>
+      </div>
+      <div class="dc" data-category="fermentada">
+        <div class="cv">
+          <img id="mc3" src="assets/images/chicha_andina_promo.png" alt="Chicha Andina" class="cimg">
+          <div class="cgl"></div>
+        </div>
+        <div class="cb">
+          <div class="ctg">Andina · Fermentada</div>
+          <div class="cn">Chicha Andina en Piña</div>
+          <p class="cd">Fermentada naturalmente dentro de una piña fresca. Sabor tropical, ligeramente ácida, única en
+            su estilo.</p>
+          <div class="cf"><span class="cp">$ 5</span><button class="ca cart-add" data-name="Chicha Andina" data-price="5">+ Ordenar</button></div>
+        </div>
+      </div>
+      <div class="dc" data-category="refrescante sin-alcohol">
+        <div class="cv">
+          <img id="mc4" src="assets/images/papelon_limon.png" alt="Papelón con Limón" class="cimg">
+          <div class="cgl"></div>
+        </div>
+        <div class="cb">
+          <div class="ctg">Refrescante · Natural</div>
+          <div class="cn">Papelón con Limón</div>
+          <p class="cd">Papelón de caña disuelto en agua fresca con abundante limón. Refrescante, natural y muy
+            venezolana.</p>
+          <div class="cf"><span class="cp">$ 2</span><button class="ca cart-add" data-name="Papelón con Limón" data-price="2">+ Ordenar</button></div>
+        </div>
+      </div>
+      <div class="dc" data-category="fermentada">
+        <div class="cv">
+          <img id="mc6" src="assets/images/chicha_ligada.png" alt="Chicha Ligada" class="cimg">
+          <div class="cgl"></div>
+        </div>
+        <div class="cb">
+          <div class="ctg">Fusión · Especial</div>
+          <div class="cn">Chicha Ligada</div>
+          <p class="cd">La mejor combinación: chicha tradicional y andina unidas en un solo vaso. Cremosa, ligeramente fermentada y con todo el sabor venezolano.</p>
+          <div class="cf"><span class="cp">$ 4</span><button class="ca cart-add" data-name="Chicha Ligada" data-price="4">+ Ordenar</button></div>
+        </div>
+      </div>
+        <div class="mnav"><button class="mnb" id="mL">←</button><button class="mnb" id="mR">→</button></div>
+  </section>
+
+
+  <!-- ═══════ TESTIMONIALS ═══════ -->
+  <section id="testimonials">
+    <div class="tw">
+      <div class="thd">
+        <div data-rv>
+          <div class="sey">04 · Voces</div>
+          <h2 class="sh2">Lo que dicen<br>nuestros <em>comensales</em></h2>
+        </div>
+        <p class="bp" data-rv="r">Cada visita es una historia. Cada sorbo, un recuerdo que perdura.</p>
+      </div>
+      <div class="tgrid">
+        <div class="tc" data-rv style="transition-delay:.1s">
+          <div class="ts">★★★★★</div>
+          <p class="tq">La chicha de pasta me transportó a la casa de mi abuela en Maracaibo. Es magia en estado
+            líquido. No hay nada igual en Caracas.</p>
+          <div class="tau">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="María" class="tav-img">
+            <div>
+              <div class="tan">María Lucía González</div>
+              <div class="tal">Caracas, Venezuela</div>
+            </div>
+          </div>
+        </div>
+        <div class="tc" data-rv style="transition-delay:.2s">
+          <div class="ts">★★★★★</div>
+          <p class="tq">Como sommelier, raramente me sorprenden las bebidas artesanales. La Chicha Andina fermentada en
+            piña es una excepción absoluta. Complejidad extraordinaria.</p>
+          <div class="tau">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Carlos" class="tav-img">
+            <div>
+              <div class="tan">Carlos Mendoza</div>
+              <div class="tal">Valencia, Venezuela</div>
+            </div>
+          </div>
+        </div>
+        <div class="tc" data-rv style="transition-delay:.3s">
+          <div class="ts">★★★★★</div>
+          <p class="tq">El espacio es increíble y cada bebida cuenta una historia diferente. El papelón con limón es
+            simplemente perfecto.</p>
+          <div class="tau">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="Ana" class="tav-img">
+            <div>
+              <div class="tan">Ana Sofía Ríos</div>
+              <div class="tal">Maracaibo, Venezuela</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════ CHEF ═══════ -->
+  <section id="chef">
+    <div class="cw">
+      <div class="ccw" data-rv="l">
+        <img src="https://images.unsplash.com/photo-1566559535698-1e4225dc26bb?auto=format&fit=crop&w=800&q=80" alt="Doña Carmen" style="width:100%; height:100%; object-fit:cover; border-radius:12px; filter: sepia(0.2) contrast(1.1);">
+      </div>
+      <div data-rv="r">
+        <div class="sey">06 · Maestro Fermentador</div>
+        <h2 class="sh2">El alma<br>detrás del <em>sabor</em></h2>
+        <blockquote class="cq">"La chicha no se hace, se siente. Sientes la pasta, sientes la leche, sientes el cariño.
+          Cuando todo se mezcla con amor, nace la chicha perfecta."</blockquote>
+        <div class="csig">Doña Carmen Rodríguez</div>
+        <div class="crol">Maestra Chichera · 3ra Generación</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ GALLERY ═══════ -->
+  <section id="gallery">
+    <div class="gw">
+      <div class="ghd" data-rv>
+        <div>
+          <div class="sey">07 · Galería</div>
+          <h2 class="sh2">El <em>Espacio</em></h2>
+        </div>
+        <a href="#reservation" class="bo">Ver Más →</a>
+      </div>
+      <div class="mas">
+        <div class="mi">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" class="g-img" alt="Sala Principal">
+          <div class="mio">
+            <div class="mil">Sala Principal</div>
+            <div class="mis">80 personas</div>
+          </div>
+        </div>
+        <div class="mi">
+          <img src="https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&w=600&q=80" class="g-img" alt="Cocina Abierta">
+          <div class="mio">
+            <div class="mil">Cocina Abierta</div>
+            <div class="mis">Vista en vivo</div>
+          </div>
+        </div>
+        <div class="mi">
+          <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=600&q=80" class="g-img" alt="Bar de Chicha">
+          <div class="mio">
+            <div class="mil">Bar de Chicha</div>
+            <div class="mis">12 sabores</div>
+          </div>
+        </div>
+        <div class="mi">
+          <img src="https://images.unsplash.com/photo-1585553616435-2dc0a54e271d?auto=format&fit=crop&w=600&q=80" class="g-img" alt="Bodega">
+          <div class="mio">
+            <div class="mil">Bodega</div>
+            <div class="mis">In situ</div>
+          </div>
+        </div>
+        <div class="mi">
+          <img src="https://images.unsplash.com/photo-1596178060862-2ca153f3e2a6?auto=format&fit=crop&w=600&q=80" class="g-img" alt="Terraza Tropical">
+          <div class="mio">
+            <div class="mil">Terraza Tropical</div>
+            <div class="mis">Vista panorámica</div>
+          </div>
+        </div>
+        <div class="mi">
+          <img src="https://images.unsplash.com/photo-1519671482502-9759101d4561?auto=format&fit=crop&w=600&q=80" class="g-img" alt="Eventos Privados">
+          <div class="mio">
+            <div class="mil">Eventos Privados</div>
+            <div class="mis">40 personas</div>
+          </div>
+        </div>
+        <div class="mi">
+          <img src="https://images.unsplash.com/photo-1582298538104-fe2e74c2ed54?auto=format&fit=crop&w=600&q=80" class="g-img" alt="Jardín Caribeño">
+          <div class="mio">
+            <div class="mil">Jardín Caribeño</div>
+            <div class="mis">Al aire libre</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ RESERVATION ═══════ -->
+  <section id="reservation">
+    <div class="rw">
+      <div data-rv="l">
+        <div class="sey">08 · Reservas</div>
+        <h2 class="sh2">Celebra<br>con <em>nosotros</em></h2>
+        <p class="bp" style="margin-top:1.5rem">Cada reserva es una invitación a disfrutar lo nuestro. Grupos, eventos
+          privados, degustaciones y maridajes disponibles.</p>
+        <div class="ilst">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=G38G%2BQGJ+La+Casa+de+la+Chicha%2C+Avenida+Oeste+13%2C+Caracas+1010%2C+Distrito+Capital" target="_blank" class="il" rel="noopener">
+            <span class="ili">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </span>
+            <div class="ilt">
+              <strong>Ubicación</strong>
+              <span>G38G+QGJ La Casa de la Chicha, Avenida Oeste 13, Caracas 1010, Distrito Capital</span>
+              <span style="font-size:0.5rem; color:var(--gold); display:block; margin-top:2px;">(Ver en Mapa)</span>
+            </div>
+          </a>
+          
+          <div class="il">
+            <span class="ili">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </span>
+            <div class="ilt">
+              <strong>Horario</strong>
+              <span>Lunes – Sábado: 8:00 am – 5:00 pm</span>
+            </div>
+          </div>
+          
+          <a href="https://wa.me/584241379696" target="_blank" class="il">
+            <span class="ili">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            </span>
+            <div class="ilt">
+              <strong>WhatsApp</strong>
+              <span>+58 424-1379696</span>
+              <span style="font-size:0.5rem; color:var(--gold); display:block; margin-top:2px;">(Click para chatear)</span>
+            </div>
+          </a>
+          
+          <a href="mailto:lacasadelachicha2025@gmail.com" class="il">
+            <span class="ili">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </span>
+            <div class="ilt">
+              <strong>Email</strong>
+              <span>lacasadelachicha2025@gmail.com</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="social-connect" style="margin-top: 3rem;">
+           <h3 class="sey">Síguenos en Redes</h3>
+           <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+             <a href="https://instagram.com" target="_blank" class="social-btn instagram">
+               <span class="ili" style="margin:0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></span>
+               <span>Instagram</span>
+             </a>
+             <a href="https://tiktok.com" target="_blank" class="social-btn tiktok">
+               <span class="ili" style="margin:0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></span>
+               <span>TikTok</span>
+             </a>
+           </div>
+        </div>
+      </div>
+      <form data-rv="r" onsubmit="sndR(event)">
+        <div class="fr">
+          <div class="ff"><label class="fl">Nombre</label><input class="fi" type="text" placeholder="Nombre completo"
+              required></div>
+          <div class="ff"><label class="fl">Email</label><input class="fi" type="email" placeholder="tu@email.com"
+              required></div>
+        </div>
+        <div class="fr">
+          <div class="ff"><label class="fl">Fecha</label><input class="fi" type="date" required></div>
+          <div class="ff"><label class="fl">Personas</label><input class="fi" type="number" min="1" max="80"
+              placeholder="N° personas" required></div>
+        </div>
+        <div class="fr">
+          <div class="ff"><label class="fl">Hora</label><select class="fs">
+              <option>12:00 PM</option>
+              <option>1:00 PM</option>
+              <option>2:00 PM</option>
+              <option>8:00 AM</option>
+              <option>9:00 AM</option>
+              <option>10:00 AM</option>
+              <option>11:00 AM</option>
+            </select></div>
+          <div class="ff"><label class="fl">Ocasión</label><select class="fs">
+              <option>Visita casual</option>
+              <option>Cumpleaños</option>
+              <option>Aniversario</option>
+              <option>Empresa</option>
+              <option>Degustación</option>
+            </select></div>
+        </div>
+        <div class="ff"><label class="fl">Mensaje</label><textarea class="fa"
+            placeholder="Requisitos especiales, consultas..."></textarea></div>
+        <button class="sub" type="submit" id="sb">Confirmar Reserva →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══════ MAPA ═══════ -->
+  <section id="map-section" aria-labelledby="mapTitle">
+    <div class="map-wrap" data-rv>
+      <div class="sey">09 · Ubicacion</div>
+      <h2 class="sh2" id="mapTitle">Como <em>llegar</em></h2>
+      <p class="bp" style="margin-top:1rem; max-width:720px;">Estamos en G38G+QGJ La Casa de la Chicha, Avenida Oeste 13, Caracas 1010, Distrito Capital. Puedes abrir la ruta en Google Maps o usar el mapa interactivo.</p>
+      <div class="map-frame">
+        <iframe
+          title="Mapa de La Casa de la Chicha"
+          src="https://www.google.com/maps?q=G38G%2BQGJ+La+Casa+de+la+Chicha%2C+Avenida+Oeste+13%2C+Caracas+1010%2C+Distrito+Capital&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p style="margin-top:0.8rem;">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=G38G%2BQGJ+La+Casa+de+la+Chicha%2C+Avenida+Oeste+13%2C+Caracas+1010%2C+Distrito+Capital" target="_blank" rel="noopener" class="ncta">Como llegar a la ubicacion exacta</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════ NEWSLETTER ═══════ -->
+  <section id="newsletter" aria-labelledby="newsletterTitle">
+    <div class="news-wrap" data-rv>
+      <div>
+        <div class="sey">10 · Novedades</div>
+        <h2 class="sh2" id="newsletterTitle">Recibe promos y <em>nuevos sabores</em></h2>
+        <p class="bp" style="margin-top:1rem;">Suscribete para enterarte de ofertas semanales, combos y ediciones limitadas.</p>
+      </div>
+      <form id="newsletterForm" class="news-form" aria-label="Formulario de newsletter">
+        <label for="newsletterEmail" class="sr-only">Correo electronico</label>
+        <input id="newsletterEmail" type="email" placeholder="tu@email.com" required>
+        <button type="submit" class="sub">Suscribirme</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══════ FAQ ═══════ -->
+  <section id="faq">
+    <div class="faq-wrap">
+      <h2 class="sh2 sey">Preguntas Frecuentes</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">¿La chicha contiene alcohol?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>La chicha tradicional y el papelón con limón no contienen alcohol. La chicha andina tiene una fermentación natural muy ligera.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">¿Hacen envíos a domicilio?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Sí, realizamos envíos en Caracas a través de WhatsApp. Contáctanos para coordinar tu pedido con delivery.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">¿Puedo hacer pedidos para eventos?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>¡Por supuesto! Ofrecemos servicio de catering para fiestas, bodas y eventos corporativos. Escríbenos para una cotización personalizada.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">¿Cuál es el horario de atención?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Atendemos de lunes a sábado, de 8:00 am a 5:00 pm. Domingos cerrado.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">¿Tienen opciones sin lactosa?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>El papelón con limón es naturalmente libre de lácteos. Para otras opciones, consúltanos por WhatsApp.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ INSTAGRAM FEED ═══════ -->
+  <section id="ig-feed">
+    <div class="ig-wrap">
+      <h2 class="sh2 sey">Síguenos en Instagram</h2>
+      <p class="ig-subtitle">@lacasadelachicha</p>
+      <div class="ig-grid">
+        <a href="#" class="ig-item" target="_blank" rel="noopener"><img src="assets/images/chicha_tradicional.png" alt="Instagram 1"><div class="ig-overlay">♥ 234</div></a>
+        <a href="#" class="ig-item" target="_blank" rel="noopener"><img src="assets/images/chicha_andina_promo.png" alt="Instagram 2"><div class="ig-overlay">♥ 189</div></a>
+        <a href="#" class="ig-item" target="_blank" rel="noopener"><img src="assets/images/papelon_limon.png" alt="Instagram 3"><div class="ig-overlay">♥ 312</div></a>
+        <a href="#" class="ig-item" target="_blank" rel="noopener"><img src="assets/images/chicha_ligada.png" alt="Instagram 4"><div class="ig-overlay">♥ 275</div></a>
+        <a href="#" class="ig-item" target="_blank" rel="noopener"><img src="assets/images/chicha_tradicional.png" alt="Instagram 5"><div class="ig-overlay">♥ 198</div></a>
+        <a href="#" class="ig-item" target="_blank" rel="noopener"><img src="assets/images/chicha_andina_promo.png" alt="Instagram 6"><div class="ig-overlay">♥ 421</div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ QR MENÚ ═══════ -->
+  <section id="qr-section">
+    <div class="qr-wrap">
+      <div class="qr-content">
+        <h2 class="sh2 sey">Menú Digital</h2>
+        <p class="qr-desc">Escanea el código QR para ver nuestro menú completo en tu teléfono</p>
+        <div class="qr-code" id="qrCode">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://lacasadelachicha2025-hub.github.io/la-casa-de-la-chicha/" alt="QR Menú Digital" width="180" height="180">
+        </div>
+        <p class="qr-hint">O comparte este enlace con tus amigos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer>
+    <div class="fin">
+      <div class="ftp">
+        <div>
+          <div class="fbn">CASA DE LA <span>CHICHA</span></div>
+          <p class="ftag">Donde la tradición venezolana se encuentra con la gastronomía del siglo XXI.</p>
+        </div>
+        <div>
+          <div class="fch">Menú</div>
+          <ul class="fls">
+            <li><a href="#menu">Chicha Tradicional</a></li>
+            <li><a href="#menu">Chicha Andina</a></li>
+            <li><a href="#menu">Papelón con Limón</a></li>
+            <li><a href="#menu">Chicha Ligada</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="fch">Visítanos</div>
+          <ul class="fls">
+            <li><a href="https://www.google.com/maps/dir/?api=1&destination=G38G%2BQGJ+La+Casa+de+la+Chicha%2C+Avenida+Oeste+13%2C+Caracas+1010%2C+Distrito+Capital" target="_blank" rel="noopener">G38G+QGJ La Casa de la Chicha, Avenida Oeste 13</a></li>
+            <li><a href="https://www.google.com/maps/dir/?api=1&destination=G38G%2BQGJ+La+Casa+de+la+Chicha%2C+Avenida+Oeste+13%2C+Caracas+1010%2C+Distrito+Capital" target="_blank" rel="noopener">Caracas 1010, Distrito Capital</a></li>
+            <li><a href="#">Lun – Sáb: 8 am – 5 pm</a></li>
+            <li><a href="#">0424-1379696</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="fch">Síguenos</div>
+          <ul class="fls">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fbt">
+        <span class="fcp">© 2025 La Casa de la Chicha. C.A. — Todos los derechos reservados</span>
+        <div class="fsc"><a href="#">IG</a><a href="#">TK</a><a href="#">FB</a><a href="#">YT</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/584241379696" target="_blank" rel="noopener" class="wa-float" id="waFloat" title="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="white"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.9 15.9 0 0016.004 32C24.826 32 32 24.826 32 16.004 32 7.176 24.826 0 16.004 0zm9.332 22.594c-.39 1.1-1.932 2.014-3.168 2.282-.846.18-1.95.324-5.67-1.218-4.76-1.972-7.822-6.81-8.06-7.124-.228-.314-1.916-2.55-1.916-4.862 0-2.312 1.214-3.45 1.644-3.922.39-.428 1.028-.624 1.64-.624.198 0 .376.01.536.018.47.02.706.048 1.016.788.39.924 1.34 3.268 1.458 3.506.12.238.238.55.078.864-.15.324-.282.526-.52.806-.238.28-.49.496-.728.798-.22.264-.468.546-.194 1.016.274.468 1.218 2.008 2.616 3.254 1.796 1.6 3.308 2.098 3.776 2.332.468.234.742.196 1.016-.118.282-.314 1.2-1.396 1.52-1.878.314-.478.634-.396 1.066-.238.434.158 2.762 1.302 3.234 1.54.468.234.782.354.9.55.116.196.116 1.138-.274 2.236z"/></svg>
+    <span class="wa-tooltip">¡Hola! ¿En qué te ayudamos?</span>
+  </a>
+
+  <!-- Cart Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Tu Pedido</h3>
+      <button class="cart-close" id="cartClose">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty">
+        <span>🛒</span>
+        <p>Tu carrito está vacío</p>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total">
+        <span>Total:</span>
+        <span id="cartTotal">$0</span>
+      </div>
+      <a href="#" class="cart-wa-btn" id="cartWaBtn" target="_blank" rel="noopener">
+        Pedir por WhatsApp →
+      </a>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de imagen">
+    <button class="lb-close" id="lbClose" aria-label="Cerrar">✕</button>
+    <button class="lb-prev" id="lbPrev" aria-label="Anterior">‹</button>
+    <button class="lb-next" id="lbNext" aria-label="Siguiente">›</button>
+    <img class="lb-img" id="lbImg" src="" alt="">
+    <div class="lb-caption" id="lbCaption"></div>
+  </div>
+
+  </main>
+
+  <!-- ═══════ SCRIPTS ═══════ -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script defer src="js/helpers.js"></script>
+  <script defer src="js/ui.js"></script>
+  <script defer src="js/scenes.js"></script>
+
+</body>
+
+</html>
